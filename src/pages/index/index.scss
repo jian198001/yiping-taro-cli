@@ -1,27 +1,62 @@
 
-
+/**
+ * nutui-react-demo 类名的样式定义
+ * 该类名用于设置一个容器的样式，使其在垂直方向上居中显示内容
+ */
 .nutui-react-demo {
+  // 设置容器的高度为视口高度的100%，确保容器填满整个视口
   height: 100vh;
+  // 使用 Flex 布局，使子元素在垂直方向上居中显示
   display: flex;
-flex-direction: column;
+  // 设置子元素在垂直方向上的排列方式为从上到下
+  flex-direction: column;
+  // 在垂直方向上居中对齐子元素
   justify-content: center;
+  // 在水平方向上居中对齐子元素
   align-items: center;
 }
+
+/**
+ * index 类名的样式定义
+ * 该类名用于设置一个容器的样式，使其在水平方向上居中显示内容，并设置字体大小和底部边距
+ */
 .index {
+  // 使用 Flex 布局，使子元素在水平方向上居中显示
   display: flex;
+  // 在水平方向上居中对齐子元素
   justify-content: center;
+  // 在垂直方向上居中对齐子元素
   align-items: center;
+  // 设置字体大小为24rpx
   font-size: 24rpx;
+  // 设置底部边距为30px
   margin-bottom: 30px;
 }
+
+/**
+ * title 类名的样式定义
+ * 该类名用于设置一个标题的样式，使其显示为块级元素，并设置上下边距和字体粗细
+ */
 .title{
+  // 设置元素为块级元素，使其独占一行
   display: block;
+  // 设置上下边距为20px
   margin: 20px 0;
+  // 设置字体粗细为600
   font-weight: 600;
 }
+
+/**
+ * btn 类名的样式定义
+ * 该类名用于设置一个按钮的样式，使其显示为块级元素，并设置宽度、右边距和底部边距
+ */
 .btn{
+  // 设置元素为块级元素，使其独占一行
   display: block;
+  // 设置宽度为200px
   width: 200px;
+  // 设置右边距为20px
   margin-right: 20px;
+  // 设置底部边距为20px
   margin-bottom: 20px;
 }
