@@ -1,13 +1,53 @@
 {
+  /**
+   * 小程序根目录路径
+   * @description 指定小程序代码的根目录，相对于项目根目录。
+   */
   "miniprogramRoot": "./",
+  /**
+   * 项目名称
+   * @description 小程序的名称。
+   */
   "projectname": "t",
+  /**
+   * 项目描述
+   * @description 小程序的描述信息。
+   */
   "description": "t",
+  /**
+   * 小程序AppID
+   * @description 小程序的唯一标识符。
+   */
   "appid": "touristappid",
+  /**
+   * 编译设置
+   * @description 配置小程序的编译选项。
+   */
   "setting": {
+    /**
+     * URL检查
+     * @description 是否检查代码中的URL安全性。
+     */
     "urlCheck": true,
+    /**
+     * ES6支持
+     * @description 是否启用ES6语法支持。
+     */
     "es6": false,
+    /**
+     * PostCSS支持
+     * @description 是否启用PostCSS支持。
+     */
     "postcss": false,
+    /**
+     * 代码压缩
+     * @description 是否压缩代码。
+     */
     "minified": false
   },
+  /**
+   * 编译类型
+   * @description 指定小程序的编译类型。
+   */
   "compileType": "miniprogram"
 }

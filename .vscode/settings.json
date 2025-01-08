@@ -1,3 +1,7 @@
 {
-    "marscode.chatLanguage": "cn"
+  /**
+   * Marscode 插件的聊天语言设置
+   * @description 这个设置指定了 Marscode 插件的聊天语言。
+   */
+  "marscode.chatLanguage": "cn"
 }

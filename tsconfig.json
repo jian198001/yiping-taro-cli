@@ -1,27 +1,115 @@
 {
+  /**
+   * TypeScript 编译器选项
+   * @description 这个对象定义了 TypeScript 编译器的各种选项。
+   */
   "compilerOptions": {
+    /**
+     * 目标 ECMAScript 版本
+     * @description 指定编译后的 JavaScript 代码应该符合的 ECMAScript 版本。
+     */
     "target": "es2017",
+    /**
+     * 模块系统
+     * @description 指定使用的模块系统，这里是 CommonJS。
+     */
     "module": "commonjs",
+    /**
+     * 移除注释
+     * @description 是否移除生成的 JavaScript 文件中的注释。
+     */
     "removeComments": false,
+    /**
+     * 保留常量枚举
+     * @description 是否保留 const 枚举声明。
+     */
     "preserveConstEnums": true,
+    /**
+     * 模块解析策略
+     * @description 指定模块解析策略，这里是 Node.js 风格的模块解析。
+     */
     "moduleResolution": "node",
+    /**
+     * 启用实验性装饰器
+     * @description 是否启用实验性的装饰器语法。
+     */
     "experimentalDecorators": true,
+    /**
+     * 隐式 any 类型检查
+     * @description 是否允许隐式的 any 类型。
+     */
     "noImplicitAny": false,
+    /**
+     * 允许默认导入
+     * @description 是否允许默认导入模块。
+     */
     "allowSyntheticDefaultImports": true,
+    /**
+     * 输出目录
+     * @description 指定编译输出的目录。
+     */
     "outDir": "lib",
+    /**
+     * 检查未使用的局部变量
+     * @description 是否检查并报告未使用的局部变量。
+     */
     "noUnusedLocals": true,
+    /**
+     * 检查未使用的参数
+     * @description 是否检查并报告未使用的函数参数。
+     */
     "noUnusedParameters": true,
+    /**
+     * 严格的 null 检查
+     * @description 是否启用严格的 null 检查。
+     */
     "strictNullChecks": true,
+    /**
+     * 生成 source map 文件
+     * @description 是否生成 source map 文件，用于调试。
+     */
     "sourceMap": true,
+    /**
+     * 基础目录
+     * @description 指定解析非相对模块名的基础目录。
+     */
     "baseUrl": ".",
+    /**
+     * 根目录
+     * @description 指定输入文件的根目录。
+     */
     "rootDir": ".",
+    /**
+     * JSX 编译选项
+     * @description 指定如何处理 JSX 语法，这里是 React 的 JSX 转换。
+     */
     "jsx": "react-jsx",
+    /**
+     * 允许 JavaScript 文件
+     * @description 是否允许编译 JavaScript 文件。
+     */
     "allowJs": true,
+    /**
+     * 解析 JSON 模块
+     * @description 是否允许导入 JSON 模块。
+     */
     "resolveJsonModule": true,
+    /**
+     * 类型定义文件目录
+     * @description 指定查找类型定义文件的目录。
+     */
     "typeRoots": [
       "node_modules/@types"
     ]
   },
+  /**
+   * 包含的文件和目录
+   * @description 这个数组指定了应该包含在编译中的文件和目录。
+   */
   "include": ["./src", "./types"],
+  /**
+   * 保存时编译
+   * @description 是否在保存文件时自动编译。
+   */
   "compileOnSave": false
 }
